@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Graphic_Button_Icon_Staff_Directory" data-name="Graphic Button Icon Staff Directory" transform="translate(11.78 5.615)">
+    <g id="Mask_Background" data-name="Mask Background" transform="translate(-11.78 -5.615)">
+      <rect id="Mask_Background-2" data-name="Mask Background" width="40" height="40" fill="none"/>
+    </g>
+    <g id="Icon" transform="translate(-12.564 -3.339)">
+      <g id="vuesax_outline_menu-board" data-name="vuesax/outline/menu-board" transform="translate(-169.832 -380.892)">
+        <g id="menu-board" transform="translate(172 380)">
+          <path id="Vector" d="M25.036,30.328H4.652a4.664,4.664,0,0,1-4.437-6.05L6.746,3.289A4.626,4.626,0,0,1,11.183,0H30.264a4.613,4.613,0,0,1,4.282,2.855,4.714,4.714,0,0,1,.233,2.932L29.551,26.776A4.617,4.617,0,0,1,25.036,30.328ZM11.2,2.342A2.327,2.327,0,0,0,8.98,3.987L2.449,24.976a2.343,2.343,0,0,0,.372,2.11,2.285,2.285,0,0,0,1.846.931H25.052A2.308,2.308,0,0,0,27.3,26.248l5.228-21A2.27,2.27,0,0,0,32.42,3.77,2.305,2.305,0,0,0,30.28,2.327H11.2Z" transform="translate(0.374 4.964)" fill="#2395d2"/>
+          <path id="Vector-2" data-name="Vector" d="M8.579,27.149H1.163a1.163,1.163,0,1,1,0-2.327H8.579a2.284,2.284,0,0,0,2.265-2.451L9.308,1.243A1.162,1.162,0,0,1,10.378,0a1.173,1.173,0,0,1,1.241,1.07L13.155,22.2a4.626,4.626,0,0,1-1.226,3.475A4.51,4.51,0,0,1,8.579,27.149Z" transform="translate(23.658 8.143)" fill="#2395d2"/>
+          <path id="Vector-3" data-name="Vector" d="M1.167,9.032A1.709,1.709,0,0,1,.887,9,1.165,1.165,0,0,1,.034,7.589L1.648.887a1.166,1.166,0,1,1,2.265.558L2.3,8.148A1.161,1.161,0,0,1,1.167,9.032Z" transform="translate(13.85 2.029)" fill="#2395d2"/>
+          <path id="Vector-4" data-name="Vector" d="M1.17,9.067a.683.683,0,0,1-.248-.031,1.187,1.187,0,0,1-.9-1.381L1.481.923a1.165,1.165,0,0,1,2.28.481L2.3,8.136A1.145,1.145,0,0,1,1.17,9.067Z" transform="translate(24.24 2.009)" fill="#2395d2"/>
+          <path id="Vector-5" data-name="Vector" d="M13.574,2.327H1.163A1.172,1.172,0,0,1,0,1.163,1.172,1.172,0,0,1,1.163,0h12.41a1.172,1.172,0,0,1,1.163,1.163A1.172,1.172,0,0,1,13.574,2.327Z" transform="translate(10.782 17.452)" fill="#2395d2"/>
+          <path id="Vector-6" data-name="Vector" d="M13.574,2.327H1.163A1.172,1.172,0,0,1,0,1.163,1.172,1.172,0,0,1,1.163,0h12.41a1.172,1.172,0,0,1,1.163,1.163A1.172,1.172,0,0,1,13.574,2.327Z" transform="translate(9.231 23.658)" fill="#2395d2"/>
+          <path id="Vector-7" data-name="Vector" d="M0,0H37.231V37.231H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

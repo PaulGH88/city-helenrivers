@@ -1,0 +1,118 @@
+/* HELEN banner - sits on the City's hero photo, under the menu, above the round quick links, in
+   the City's own colours (toolbar navy #0C4968, page tint #F0F3FF, text #212121, logo blue
+   #2AA7DF) and font (Poppins). The coneflower photo is busy, so the box sits on a navy panel and
+   enough of the photo shows around it to still read as the City's hero. The Pay Bills / social
+   box stays at top right; the round quick links still overlap the bottom of the photo. */
+
+/* The hero grows to fit the banner; the photo always covers it. */
+#bannerSizingTS { min-height: 400px; height: auto !important; }
+#bannerDivbanner1 { left: 0 !important; right: 0 !important; top: 0 !important; bottom: 0 !important; height: auto !important; min-height: 0 !important; }
+#bannerDivbanner1 img.bannerObject { left: 0 !important; top: 0 !important; width: 100% !important; height: 100% !important; object-fit: cover; object-position: center top; }
+
+/* The Pay Bills row is a float; keep it inside its own row so the banner is not squeezed beside it. */
+#bannerSearchTS { display: flow-root; }
+#helen-banner { position: relative; z-index: 2; margin-top: -64px; padding: 26px 0 74px; pointer-events: none; }
+#helen-banner .hb-ask, #helen-banner .hb-video { pointer-events: auto; }
+#helen-banner .hb-wrap { max-width: 1393px; margin: 0 auto; padding: 0 16px; }
+#helen-banner .hb-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; min-height: 318px; }
+#helen-banner .hb-video { align-self: flex-end; margin-right: 24px; }
+#helen-banner .hb-ask {
+	flex: 0 1 760px; background: rgba(12,73,104,.93); border-radius: 12px; padding: 26px 32px 24px;
+	box-shadow: 0 12px 32px rgba(0,0,0,.28);
+}
+#helen-banner .hb-title { margin: 0 0 16px; font-family: "Poppins", sans-serif; font-size: 40px; font-weight: 700; line-height: 1.1; color: #F0F3FF; text-transform: none; letter-spacing: 0; }
+#helen-banner .hb-title label { margin: 0; cursor: text; font: inherit; color: inherit; display: inline; }
+
+#helen-banner .hb-box { position: relative; display: block; margin: 0; }
+#helen-banner .hb-box input {
+	width: 100%; height: 64px; padding: 0 80px 0 22px; border: 2px solid transparent; border-radius: 8px; box-sizing: border-box;
+	background: #FFFFFF; color: #212121; font-family: "Poppins", sans-serif; font-size: 19px;
+	box-shadow: none; outline: none; -webkit-appearance: none; appearance: none; margin: 0;
+}
+#helen-banner .hb-box input:focus { border-color: #2AA7DF; box-shadow: 0 0 0 4px rgba(42,167,223,.45); }
+#helen-banner .hb-typed {
+	position: absolute; left: 24px; right: 84px; top: 50%; transform: translateY(-50%); pointer-events: none;
+	color: #5F6B7A; font-family: "Poppins", sans-serif; font-size: 19px; white-space: nowrap; overflow: hidden;
+	display: flex; justify-content: flex-start;
+}
+#helen-banner .hb-typed.hb-overflow { justify-content: flex-end; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 18px); mask-image: linear-gradient(90deg, transparent 0, #000 18px); }
+#helen-banner .hb-typed .hb-t { flex-shrink: 0; }
+#helen-banner .hb-typed.hb-caret .hb-t::after { content: ""; display: inline-block; width: 2px; height: 1.1em; margin-left: 2px; vertical-align: -0.18em; background: #5F6B7A; animation: hb-blink 1s steps(1) infinite; }
+@keyframes hb-blink { 50% { opacity: 0; } }
+#helen-banner .hb-box.hb-active .hb-typed { display: none; }
+
+#helen-banner .hb-mic {
+	position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 50px; height: 50px; border: 0; border-radius: 8px; padding: 0;
+	background: #0C4968; color: #F0F3FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background .3s, color .3s;
+}
+#helen-banner .hb-mic:hover { background: #2AA7DF; color: #FFFFFF; }
+#helen-banner .hb-mic:focus-visible { outline: 3px solid #2AA7DF; outline-offset: 2px; }
+#helen-banner .hb-mic .hb-ico-send { display: none; }
+#helen-banner .hb-box.hb-has-text .hb-mic .hb-ico-send { display: block; }
+#helen-banner .hb-box.hb-has-text .hb-mic .hb-ico-mic { display: none; }
+
+#helen-banner .hb-hint { margin: 12px 2px 0; color: #F0F3FF; font-family: "Poppins", sans-serif; font-size: 15px; line-height: 1.45; }
+
+/* The video card: half size, low on the right, clear of the Pay Bills box. */
+#helen-banner .hb-video { flex: 0 0 150px; text-align: center; }
+#helen-banner .hb-frame { position: relative; width: 150px; aspect-ratio: 5 / 6; border-radius: 10px; overflow: hidden; background: #0C4968; box-shadow: 0 8px 22px rgba(0,0,0,.3); border: 3px solid #FFFFFF; box-sizing: border-box; }
+#helen-banner .hb-frame video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0C4968; }
+#helen-banner .hb-frame:fullscreen video, #helen-banner .hb-frame:-webkit-full-screen video { object-fit: contain; background: #000; }
+#helen-banner .hb-frame:fullscreen { border: 0; border-radius: 0; }
+#helen-banner .hb-play {
+	position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 46px; height: 46px; border-radius: 50%; border: 0;
+	background: rgba(12,73,104,.9); color: #F0F3FF; display: flex; align-items: center; justify-content: center; padding: 0 0 0 3px; cursor: pointer; transition: background .3s;
+}
+#helen-banner .hb-play:hover { background: #2AA7DF; }
+#helen-banner .hb-frame.hb-playing .hb-play { display: none; }
+#helen-banner .hb-expand {
+	position: absolute; right: 6px; top: 6px; width: 32px; height: 30px; border: 0; border-radius: 6px;
+	background: rgba(240,243,255,.92); color: #0C4968; display: flex; align-items: center; justify-content: center; padding: 0; cursor: pointer; transition: background .3s;
+}
+#helen-banner .hb-expand:hover { background: #FFFFFF; }
+#helen-banner .hb-play:focus-visible, #helen-banner .hb-expand:focus-visible { outline: 3px solid #2AA7DF; outline-offset: 2px; }
+#helen-banner .hb-caption {
+	display: inline-block; margin: 8px 0 0; padding: 3px 10px; border-radius: 6px; background: rgba(12,73,104,.93);
+	color: #F0F3FF; font-family: "Poppins", sans-serif; font-weight: 600; font-size: 14px; line-height: 1.3;
+}
+
+/* Helen's widget stays out of sight while the banner's own box and mic are on screen, and sits
+   above the City's fixed header once opened. */
+elevenlabs-convai.hb-launcher-hidden { visibility: hidden; }
+elevenlabs-convai { z-index: 10001 !important; }
+
+@media only screen and (max-width: 1199px) {
+	/* Here the Pay Bills box is centred, so the banner starts under its row. */
+	#helen-banner { margin-top: 0; padding-top: 16px; }
+	#helen-banner .hb-row { min-height: 0; align-items: flex-end; }
+	#helen-banner .hb-title { font-size: 34px; }
+}
+/* Tablets and phones: the City's header stops being fixed and the Pay Bills box sits on its own
+   row, so the banner simply follows it. The box owns the first screen; the video drops below. */
+@media only screen and (max-width: 767px) {
+	#helen-banner { margin-top: 0; padding: 8px 0 60px; }
+	#helen-banner .hb-row { flex-direction: column; align-items: stretch; gap: 18px; min-height: 0; }
+	#helen-banner .hb-video { align-self: center; margin-right: 0; }
+	#helen-banner .hb-ask { flex: none; padding: 18px 16px 16px; }
+	#helen-banner .hb-title { font-size: 28px; margin-bottom: 12px; }
+	#helen-banner .hb-box input { height: 72px; font-size: 17px; padding-right: 70px; padding-left: 16px; }
+	#helen-banner .hb-typed, #helen-banner .hb-typed.hb-overflow {
+		font-size: 17px; left: 18px; right: 72px; display: block; white-space: normal; line-height: 1.25;
+		-webkit-mask-image: none; mask-image: none;
+	}
+	#helen-banner .hb-typed .hb-t { display: inline; }
+	#helen-banner .hb-mic { width: 50px; height: 50px; right: 8px; }
+	#helen-banner .hb-hint { font-size: 14px; }
+	#helen-banner .hb-video { flex: none; }
+	#helen-banner .hb-frame { width: 115px; margin: 0 auto; }
+	/* Phones: the floating launcher appears only once Helen has been opened. */
+	elevenlabs-convai:not(.hb-opened) { visibility: hidden; }
+}
+@media (prefers-reduced-motion: reduce) {
+	#helen-banner .hb-typed.hb-caret .hb-t::after { animation: none; display: none; }
+}
+
+/* Captions readable on the small card, larger in full screen. */
+#helen-video::cue { font-size: 12px; line-height: 1.25; background: rgba(0,0,0,.72); }
+#helen-banner .hb-frame:fullscreen #helen-video::cue { font-size: 30px; }
+#helen-banner .hb-frame:-webkit-full-screen #helen-video::cue { font-size: 30px; }

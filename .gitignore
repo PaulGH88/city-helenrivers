@@ -1,0 +1,6 @@
+/snapshot/assets-cache/
+/src/
+/snapshot/cp/antiforgery.json
+/snapshot/city-homepage-raw.html
+/snapshot/*.html
+!/snapshot/cp/

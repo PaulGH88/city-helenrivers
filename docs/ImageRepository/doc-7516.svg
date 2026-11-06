@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Global_Graphic_Button_Pay_Bills_" data-name="Global Graphic Button Pay Bills " transform="translate(8.342 12.396)">
+    <g id="Background" transform="translate(-287.084 -18.396)">
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="17.5" cy="17.5" r="17.5" transform="translate(278.742 6)" fill="#2395d2"/>
+    </g>
+    <g id="Icon" transform="translate(-1.839 -5.893)">
+      <g id="vuesax_outline_card" data-name="vuesax/outline/card" transform="translate(0)">
+        <g id="card">
+          <path id="Vector" d="M19.016,1.375H.687A.692.692,0,0,1,0,.687.692.692,0,0,1,.687,0H19.016A.692.692,0,0,1,19.7.687.692.692,0,0,1,19.016,1.375Z" transform="translate(1.146 7.102)" fill="#f0f3ff"/>
+          <path id="Vector-2" data-name="Vector" d="M2.52,1.375H.687A.692.692,0,0,1,0,.687.692.692,0,0,1,.687,0H2.52a.692.692,0,0,1,.687.687A.692.692,0,0,1,2.52,1.375Z" transform="translate(4.811 14.434)" fill="#f0f3ff"/>
+          <path id="Vector-3" data-name="Vector" d="M4.353,1.375H.687A.692.692,0,0,1,0,.687.692.692,0,0,1,.687,0H4.353A.692.692,0,0,1,5.04.687.692.692,0,0,1,4.353,1.375Z" transform="translate(8.935 14.434)" fill="#f0f3ff"/>
+          <path id="Vector-4" data-name="Vector" d="M14.947,16.954H4.756c-3.647,0-4.756-1.1-4.756-4.71V4.71C0,1.1,1.109,0,4.756,0H14.938c3.647,0,4.756,1.1,4.756,4.71v7.524C19.7,15.854,18.594,16.954,14.947,16.954ZM4.756,1.375c-2.878,0-3.382.495-3.382,3.336v7.524c0,2.841.5,3.336,3.382,3.336H14.938c2.878,0,3.382-.495,3.382-3.336V4.71c0-2.841-.5-3.336-3.382-3.336Z" transform="translate(1.146 2.52)" fill="#f0f3ff"/>
+          <path id="Vector-5" data-name="Vector" d="M0,0H21.994V21.994H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

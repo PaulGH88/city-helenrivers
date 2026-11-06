@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Graphic_Button_Icon_Pay_Bills_" data-name="Graphic Button Icon Pay Bills " transform="translate(11.78 5.615)">
+    <g id="Mask_Background" data-name="Mask Background" transform="translate(-11.78 -5.615)">
+      <rect id="Mask_Background-2" data-name="Mask Background" width="40" height="40" fill="none"/>
+    </g>
+    <g id="Icon" transform="translate(-13.824 -1.775)">
+      <g id="vuesax_outline_card" data-name="vuesax/outline/card" transform="translate(4.654 1.197)">
+        <g id="card" transform="translate(0 0)">
+          <path id="Vector" d="M33.566,2.426H1.213A1.222,1.222,0,0,1,0,1.213,1.222,1.222,0,0,1,1.213,0H33.566a1.222,1.222,0,0,1,1.213,1.213A1.222,1.222,0,0,1,33.566,2.426Z" transform="translate(0 8.088)" fill="#2395d2"/>
+          <path id="Vector-2" data-name="Vector" d="M4.448,2.426H1.213A1.222,1.222,0,0,1,0,1.213,1.222,1.222,0,0,1,1.213,0H4.448A1.222,1.222,0,0,1,5.662,1.213,1.222,1.222,0,0,1,4.448,2.426Z" transform="translate(6.47 21.029)" fill="#2395d2"/>
+          <path id="Vector-3" data-name="Vector" d="M7.684,2.426H1.213A1.222,1.222,0,0,1,0,1.213,1.222,1.222,0,0,1,1.213,0h6.47A1.222,1.222,0,0,1,8.9,1.213,1.222,1.222,0,0,1,7.684,2.426Z" transform="translate(13.75 21.029)" fill="#2395d2"/>
+          <path id="Vector-4" data-name="Vector" d="M26.383,29.926H8.4c-6.438,0-8.4-1.941-8.4-8.315V8.315C0,1.941,1.957,0,8.4,0H26.367c6.438,0,8.4,1.941,8.4,8.315V21.6C34.779,27.985,32.821,29.926,26.383,29.926ZM8.4,2.426c-5.079,0-5.969.874-5.969,5.888V21.6c0,5.015.89,5.888,5.969,5.888H26.367c5.079,0,5.969-.874,5.969-5.888V8.315c0-5.015-.89-5.888-5.969-5.888Z" transform="translate(0 0)" fill="#2395d2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
