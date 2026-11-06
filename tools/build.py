@@ -196,6 +196,11 @@ def main():
         if leak in html:
             sys.exit('FAIL: City key or tracker still on the page: ' + leak)
 
+    # The copy does not call itself the City's official website (Paul YES, Gloria item 8, 2026-11-06).
+    html, n = re.subn(r'<title>[^<]*Official Website[^<]*</title>', '<title>City of Delafield - Wisconsin</title>', html, count=1)
+    if n != 1:
+        sys.exit('FAIL: page title not found exactly once (%d)' % n)
+
     # 2. Search engines stay out.
     if re.search(r'<meta name="robots"', html, re.I):
         html = re.sub(r'<meta name="robots"[^>]*>', '<meta name="robots" content="noindex,nofollow">', html, flags=re.I)
